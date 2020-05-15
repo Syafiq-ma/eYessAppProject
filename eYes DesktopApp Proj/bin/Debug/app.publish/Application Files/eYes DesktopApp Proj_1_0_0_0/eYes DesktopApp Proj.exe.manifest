@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="eYes DesktopApp Proj.exe" version="1.0.0.0" publicKeyToken="5cfd15ee2db6394a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Logo_eYes.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="eYes DesktopApp Proj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="eYes DesktopApp Proj.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="eYes DesktopApp Proj.exe" size="927184">
+      <assemblyIdentity name="eYes DesktopApp Proj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XjNqRA8SuH30El54zrEpiILESWG9HOA9rc67zNtF/FQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DBRecordHistory.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NxuEjbe8LVeoIlosnn5JdtuxcTi4vb92xQAVE50VZ1A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DBRecordHistory_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KIzpiekFl6dfxv4WhGfeviwYsiPK0Uey+EVzxLOl7/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="eYes DesktopApp Proj.exe.config" size="1546">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ivCuKJ23SSrXhy3Mag2Xv1jstotuW3lwMWJlQSfg1mg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Logo_eYes.ico" size="432254">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yMu6yM6u0iHt7lLc3EomQATvRCsYSL9bDFSySeRGWT4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-HJG9D49T\HP" issuerKeyHash="f53903b202e60c27cf1b9edd7233b2739205ea2e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wcwwx/mG4zkxXx/Nyg3OcPhrDY9a/EQUR2eXamCrR+0=</DigestValue></Reference></SignedInfo><SignatureValue>G5WP7t2gjtvgH3mhw9h2Ruw/qlLx2itc8FVSHZq9fEAFXFoY1AwJuYPne0AxyBXJcV40wQbwKj1v6xHdFLt2O/fbWGbBwBNjXpUfq7U5DgGpPqJVuIG432pXsFs124siZM5Wpt7xtlcKyes8NlfEDCI+SYU/iiQ9Mex3Y+82XI0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x5YDZd4k6mN20CVjgzp+sSpkuM153fvEwU5ZkPU3WDc9lFEWA4Z1ghwcRZ3Cg6ze6nG/15Ca4HAJ0BuecmcEnu/dZu+dWddNc0ax9Mz6kbK7yPW0y3r98i8k5zTiSSPtY2YKj6J8RT6NHCBTdYNviEYByrR73DjdUrTrhlteqrE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ed47ab606a9767471444fc5a8f0d6bf870ce0dcacd1f5f3139e386f9c730ccc1" Description="" Url=""><as:assemblyIdentity name="eYes DesktopApp Proj.exe" version="1.0.0.0" publicKeyToken="5cfd15ee2db6394a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-HJG9D49T\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LaySIg8Sxah5pbXBH2MIIxPzJ05xAID/8p+2y6Z7PxQ=</DigestValue></Reference></SignedInfo><SignatureValue>FmKMbHufvX0PG1ZHpb3/eZN2FMZ9IhIZ4J+p4YvqJ7eXishv0UisXRGBpniltCYg/orW2J8cYFx75XY3g5koG8DTRaQeqTGSn289nVGloP0/w6u1Ytr7kyzvLf9TgXVOemk+hJvmHXxQpiRF21/LgiV04UPstb3axgxktpW/9AE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x5YDZd4k6mN20CVjgzp+sSpkuM153fvEwU5ZkPU3WDc9lFEWA4Z1ghwcRZ3Cg6ze6nG/15Ca4HAJ0BuecmcEnu/dZu+dWddNc0ax9Mz6kbK7yPW0y3r98i8k5zTiSSPtY2YKj6J8RT6NHCBTdYNviEYByrR73DjdUrTrhlteqrE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQEr95b61reb5LS8aubdyPUzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBIAEoARwA5AEQANAA5AFQAXABIAFAwHhcNMjAwNTE0MDkxMzUxWhcNMjEwNTE0MTUxMzUxWjAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBIAEoARwA5AEQANAA5AFQAXABIAFAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMeWA2XeJOpjdtAlY4M6frEqZLjNed37xMFOWZD1N1g3PZRRFgOGdYIcHEWdwoOs3upxv9eQmuBwCdAbnnJnBJ7v3WbvnVnXTXNGsfTM+pGyu8j1tMt6/fIvJOc04kkj7WNmCo+ifEU+jRwgU3WDb4hGAcq0e9w43VK064ZbXqqxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAh5UbJYyLZ80wVWnR9XMIdzU16ZN+wL+EROqIFpYi8ttHHQzVnGhn4LMljmjhnmun1Ky/fOha09vhj0fYgZfqkwfNYz4S5upH6cE4+oe+RVXPKV6gcG8u5SDHfWVUyCn5uxm3ZwtLkeveHL+IkbkifxnJFHwhmHLVB626Nm5ewVc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
